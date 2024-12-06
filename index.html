@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PUTRA TUNGGAL ELEKTRONIK</title>
+  <link rel="stylesheet" href="styles.css">
+<body>
+  <header>
+    <h1>PUTRA TUNGGAL ELEKTRONIK</h1>
+  </header>
+  <div class="banner">
+    <p>Kebutuhan Rumah Tangga 
+    Kini Lebih Dekat Dengan Anda</p>
+  </div>
+  <div class="logo">
+    <img src="logo-toko.png" alt="Logo Toko">
+  </div>
+  <main>
+    <div class="slideshow-container">
+      <img src="product1.jpg" alt="Produk 1" class="slides">
+      <img src="product2.jpg" alt="Produk 2" class="slides">
+      <img src="product3.jpg" alt="Produk 3" class="slides">
+      <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+      <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <section class="social-links">
+      <h3>Ikuti Kami:</h3>
+      <a href="https://www.instagram.com/putratunggalelektronik" target="_blank">
+        <img src="instagram-icon.png" alt="Instagram">
+      </a>
+      <a href="https://wa.me/087820839575" target="_blank">
+        <img src="whatsapp-icon.png" alt="WhatsApp">
+      </a>
+      <a href="https://www.facebook.com/namaakun" target="_blank">
+        <img src="facebook-icon.png" alt="Facebook">
+      </a>
+    </section>
+    <section class="payment-icons">
+      <h3>Metode Pembayaran:</h3>
+      <img src="bca-logo.png" alt="BCA">
+      <img src="bri-logo.png" alt="BRI">
+      <img src="gopay-logo.png" alt="GoPay">
+    </section>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
