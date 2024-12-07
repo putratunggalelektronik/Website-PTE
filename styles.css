@@ -27,7 +27,7 @@ header {
 }
 .slideshow-container {
   position: relative;
-  max-width: 150px;
+  max-width: 600px;
   margin: 20px auto;
   overflow: hidden;
 }
