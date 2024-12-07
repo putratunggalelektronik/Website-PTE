@@ -22,8 +22,8 @@ header {
   margin: 20px 0;
 }
 .logo img {
-  max-width: 50px;
-  height: 50;
+  max-width: 100px;
+  height: 100;
 }
 .slideshow-container {
   position: relative;
