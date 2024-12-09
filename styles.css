@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  background-image: img ('background.png'); /* Ganti 'background.jpg' dengan file gambar Anda */
+  background-image: img('background.png'); /* Ganti 'background.jpg' dengan file gambar Anda */
   background-size: cover; /* Gambar akan menyesuaikan dengan layar */
   background-repeat: no-repeat; /* Gambar tidak akan diulang */
   background-position: center; /* Gambar dipusatkan */
